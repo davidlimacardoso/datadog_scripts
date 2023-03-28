@@ -9,7 +9,7 @@ def exportFileRepo(json, id):
 #Export to readme.me file
 def exportReadme(body):
     
-    with open(f"readme.md", "w") as outfile:
+    with open(f"README.md", "w") as outfile:
         outfile.write(body)
         
 #Building readme body and list services
