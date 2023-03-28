@@ -15,7 +15,7 @@ def exportReadme(body):
 #Building readme body and list services
 def readmeBuilder(list):
     body        = ""
-    bodyHeader  = "\n# Monitores Datadog Ame\nExport de todos os monitors do Datadog da Ame, para fins de backup.\n## Lista de Monitors\n"
+    bodyHeader  = "\n# Monitores Datadog \nExport de todos os monitors do Datadog, para fins de backup.\n## Lista de Monitors\n"
     
     bodyList = ""
     for each in list:
